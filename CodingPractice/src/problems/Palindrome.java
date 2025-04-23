@@ -6,6 +6,7 @@ public class Palindrome {
 		// TODO Auto-generated method stub\\
 		//heh//
 		String s="malayalam";
+		s=s.toUpperCase();
 		String rev="";
 		
 		for(int i=s.length()-1; i>=0;i--)

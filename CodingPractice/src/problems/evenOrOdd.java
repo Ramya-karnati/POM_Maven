@@ -5,11 +5,14 @@ public class evenOrOdd {
 	public static void main(String[] args) {
 		int n = 10;
 		if(n % 2 == 0) {
-			System.out.println("Even");
+			System.out.println("Evening");
 		}else {
 			System.out.println("Odd");
 		}
+		
+		
 
 	}
 
 }
+

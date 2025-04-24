@@ -4,7 +4,7 @@ public class Palindrome {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub\\
-		
+		//heh//
 		//sum of indivdual digits
 		
 		Palindrome p=new Palindrome();

@@ -5,7 +5,7 @@ public class Palindrome {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub\\
 		//heh//
-		//sum of indivdefrgtual digits
+		//sum of indivdefrgtuaegl digits
 		
 		Palindrome p=new Palindrome();
 		int l=123;

@@ -3,36 +3,31 @@ package problems;
 public class Palindrome {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub\\
-		//heh//
-		//sum of indivdefrgtuaegl digits
+		
 		
 		Palindrome p=new Palindrome();
-		int l=123;
-		
-	   int sum=p.digits(l);
-	   System.out.println(sum);
-	
-	
+		String k="ramya";
+      String e= p.duplicates(k);
+      System.out.print(e);
 	}
 
-
-
-public int digits(int n)
+public String duplicates(String s)
 {
-
-
-	int r, sum=0;
-	
-	while(n>0)
+	String e="";
+	for(int i=0;i<s.length();i++)
 	{
-		r=n%10;
-		sum=sum+r;
-		n=n/10;
+		if(e.contains(s.charAt(i)+""))
+		{
+			
+		}
+		else
+		{
+			e=e+s.charAt(i);
+		}
 		
 	}
-
-	return sum;
+	return e;
 	
 }
+
 }
